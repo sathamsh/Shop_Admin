@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" ignored="1" total="12" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79786" started-at="2022-01-21T11:37:01 IST" finished-at="2022-01-21T11:38:21 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="79786" started-at="2022-01-21T11:37:01 IST" finished-at="2022-01-21T11:38:21 IST">
+      <class name="Beta_Web.Register_Page">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Beta_Web.Register_Page@11758f2a]" name="openBrowser" is-config="true" duration-ms="24951" started-at="2022-01-21T11:36:36 IST" finished-at="2022-01-21T11:37:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="screenShot()[pri:0, instance:Beta_Web.Register_Page@11758f2a]" name="screenShot" is-config="true" duration-ms="633" started-at="2022-01-21T11:37:01 IST" finished-at="2022-01-21T11:37:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShot -->
+        <test-method status="FAIL" signature="enterShortValues()[pri:2, instance:Beta_Web.Register_Page@11758f2a]" name="enterShortValues" duration-ms="6296" started-at="2022-01-21T11:37:02 IST" finished-at="2022-01-21T11:37:08 IST">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Username field is short msg is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Username field is short msg is not displayed
+at Beta_Web.Register_Page.enterShortValues(Register_Page.java:184)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterShortValues -->
+        <test-method status="FAIL" signature="enterLengthValues()[pri:3, instance:Beta_Web.Register_Page@11758f2a]" name="enterLengthValues" duration-ms="17530" started-at="2022-01-21T11:37:08 IST" finished-at="2022-01-21T11:37:26 IST">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Username field is Length msg is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Username field is Length msg is not displayed
+at Beta_Web.Register_Page.enterLengthValues(Register_Page.java:277)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLengthValues -->
+        <test-method status="PASS" signature="domainFieldWithSpecialChar()[pri:4, instance:Beta_Web.Register_Page@11758f2a]" name="domainFieldWithSpecialChar" duration-ms="7804" started-at="2022-01-21T11:37:26 IST" finished-at="2022-01-21T11:37:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- domainFieldWithSpecialChar -->
+        <test-method status="FAIL" signature="numberFieldEnterWithCharacter()[pri:5, instance:Beta_Web.Register_Page@11758f2a]" name="numberFieldEnterWithCharacter" duration-ms="3141" started-at="2022-01-21T11:37:34 IST" finished-at="2022-01-21T11:37:37 IST">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Mobile number field cannot accept character msg is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Mobile number field cannot accept character msg is not displayed
+at Beta_Web.Register_Page.numberFieldEnterWithCharacter(Register_Page.java:400)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- numberFieldEnterWithCharacter -->
+        <test-method status="FAIL" signature="enterInvalidEmail()[pri:6, instance:Beta_Web.Register_Page@11758f2a]" name="enterInvalidEmail" duration-ms="2442" started-at="2022-01-21T11:37:37 IST" finished-at="2022-01-21T11:37:39 IST">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Invalid Email field msg is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Invalid Email field msg is not displayed
+at Beta_Web.Register_Page.enterInvalidEmail(Register_Page.java:434)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidEmail -->
+        <test-method status="PASS" signature="enterInvalidEmail2()[pri:7, instance:Beta_Web.Register_Page@11758f2a]" name="enterInvalidEmail2" duration-ms="6542" started-at="2022-01-21T11:37:39 IST" finished-at="2022-01-21T11:37:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidEmail2 -->
+        <test-method status="PASS" signature="enterAlreadyRegisteredEmail()[pri:8, instance:Beta_Web.Register_Page@11758f2a]" name="enterAlreadyRegisteredEmail" duration-ms="7660" started-at="2022-01-21T11:37:46 IST" finished-at="2022-01-21T11:37:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAlreadyRegisteredEmail -->
+        <test-method status="FAIL" signature="emailFieldWithSpecialCharacters()[pri:9, instance:Beta_Web.Register_Page@11758f2a]" name="emailFieldWithSpecialCharacters" duration-ms="2774" started-at="2022-01-21T11:37:53 IST" finished-at="2022-01-21T11:37:56 IST">
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Already registered Email msg is not displayed]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Already registered Email msg is not displayed
+at Beta_Web.Register_Page.emailFieldWithSpecialCharacters(Register_Page.java:544)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailFieldWithSpecialCharacters -->
+        <test-method status="PASS" signature="wrongRepeatPassword()[pri:10, instance:Beta_Web.Register_Page@11758f2a]" name="wrongRepeatPassword" duration-ms="7232" started-at="2022-01-21T11:37:56 IST" finished-at="2022-01-21T11:38:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongRepeatPassword -->
+        <test-method status="PASS" signature="alreadyEnteredDomainName()[pri:11, instance:Beta_Web.Register_Page@11758f2a]" name="alreadyEnteredDomainName" duration-ms="8527" started-at="2022-01-21T11:38:03 IST" finished-at="2022-01-21T11:38:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alreadyEnteredDomainName -->
+        <test-method status="PASS" signature="validValues()[pri:12, instance:Beta_Web.Register_Page@11758f2a]" name="validValues" duration-ms="9026" started-at="2022-01-21T11:38:12 IST" finished-at="2022-01-21T11:38:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validValues -->
+        <test-method status="PASS" signature="closeBrwser()[pri:0, instance:Beta_Web.Register_Page@11758f2a]" name="closeBrwser" is-config="true" duration-ms="4165" started-at="2022-01-21T11:38:22 IST" finished-at="2022-01-21T11:38:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrwser -->
+      </class> <!-- Beta_Web.Register_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
